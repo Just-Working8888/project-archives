@@ -1,0 +1,31 @@
+.App {
+  display: flex!important;
+}
+
+.editor {
+  position: relative;
+  overflow: auto;
+  margin: 10rem 10rem 0 30%;
+  border-radius: 12px;
+  border: 1px solid var(--lc-black-200, #ccc);
+
+  width: 624px;
+  height: 748px;
+}
+.ql-toolbar.ql-snow {
+  border: none !important;
+  border-bottom: 1px solid var(--lc-black-200, #ccc) !important;
+}
+.ql-container.ql-snow {
+  border: none !important;
+}
+/* Скрыть скроллбар WebKit */
+.editor::-webkit-scrollbar {
+  display: none;
+}
+
+
+.firast{
+  height: 100vh;
+  display: block;
+}
